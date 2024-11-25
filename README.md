@@ -54,7 +54,7 @@
             const when = document.getElementById('when').value;
             const actionTaken = document.getElementById('actionTaken').value;
 
-            const message = `Location: ${location}%0AWho:${who}%0AWhat:${what}%0AWhere:${where}%0AWhen:${when}%0AAction Taken: الاجراء المتخذ ${actionTaken}`;
+            const message = `Location: ${location}%0AWho: من ${who}%0AWhat: ماذا ${what}%0AWhere: أين ${where}%0AWhen: متى ${when}%0AAction Taken: الاجراء المتخذ ${actionTaken}`;
             const phoneNumber = '+9647714994301';
             const whatsappURL = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${message}`;
 
@@ -89,16 +89,16 @@
         <label for="location">Location (Google Maps Link):</label><br>
         <input type="text" id="location" name="location" readonly><br><br>
         
-        <label for="who">من</label><br>
+        <label for="who">Who:من</label><br>
         <input type="text" id="who" name="who"><br><br>
         
-        <label for="what">ماذا</label><br>
+        <label for="what">What: ماذا</label><br>
         <textarea id="what" name="what"></textarea><br><br>
         
-        <label for="where">أين</label><br>
+        <label for="where">Where: أين</label><br>
         <textarea id="where" name="where"></textarea><br><br>
         
-        <label for="when">متى</label><br>
+        <label for="when">When: متى</label><br>
         <input type="datetime-local" id="when" name="when"><br><br>
         
         <label for="actionTaken">الاجراء المتخذ</label><br>
