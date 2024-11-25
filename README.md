@@ -89,19 +89,19 @@
         <label for="location">Location (Google Maps Link):</label><br>
         <input type="text" id="location" name="location" readonly><br><br>
         
-        <label for="who">Who?  من </label><br>
+        <label for="who">من</label><br>
         <input type="text" id="who" name="who"><br><br>
         
-        <label for="what">What? ماذا </label><br>
+        <label for="what">ماذا</label><br>
         <textarea id="what" name="what"></textarea><br><br>
         
-        <label for="where">Where? أين </label><br>
+        <label for="where">أين</label><br>
         <textarea id="where" name="where"></textarea><br><br>
         
-        <label for="when">When? متى </label><br>
+        <label for="when">متى</label><br>
         <input type="datetime-local" id="when" name="when"><br><br>
         
-        <label for="actionTaken">Action Taken? الاجراء المتخذ </label><br>
+        <label for="actionTaken">الاجراء المتخذ</label><br>
         <textarea id="actionTaken" name="actionTaken"></textarea><br><br>
         
         <a id="whatsappLink" href="#" onclick="sendWhatsAppMessage()">Send WhatsApp Message</a>
